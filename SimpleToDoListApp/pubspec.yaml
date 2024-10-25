@@ -1,0 +1,15 @@
+
+name: simple_to_do_list_app
+description: A simple To-Do list app for testing CodeMagic
+publish_to: "none" # This is only for personal testing purposes
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.0.6
+
+flutter:
+  uses-material-design: true
